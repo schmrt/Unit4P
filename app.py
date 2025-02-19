@@ -14,3 +14,7 @@ def aboutme():
 @app.route("/baja")
 def baja():
 	return render_template("baja.html")
+
+@app.route("/resume")
+def resume():
+	return render_template("resume.html")
